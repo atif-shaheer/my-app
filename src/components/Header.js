@@ -224,17 +224,17 @@ const Header = () => {
           </li>
           <li className="submenu">
             <a href="#">
-              <i className="fa fa-cog" /> <span> Settings </span>{" "}
+              <i className="fa fa-users" /> <span> Signup Members </span>{" "}
               <span className="menu-arrow" />
             </a>
             <ul style={{ display: "none" }}>
               <li>
-                <a href="/settingsjoining">Joining</a>
+                <a href="/settingsjoining">Member Details</a>
               </li>
               <li>
-                <a href="/settingslevel">Level</a>
+                <a href="/settingslevel">Member Tree</a>
               </li>
-              <li>
+              {/* <li>
                 <a href="/settingsepin">Epin</a>
               </li>
               <li>
@@ -242,106 +242,133 @@ const Header = () => {
               </li>
               <li>
                 <a href="/settingspin">Epin Charge</a>
-              </li>
+              </li> */}
             </ul>
           </li>
           <li className="submenu">
             <a href="#">
-              <i className="fa fa-group" /> <span> Member </span>{" "}
+              <i className="fa fa-money" /> <span> Money Received </span>{" "}
               <span className="menu-arrow" />
             </a>
             <ul style={{ display: "none" }}>
               <li>
-                <a href="/viewmember">View Members</a>
+                <a href="/viewmember">Senders Details</a>
               </li>
               <li>
-                <a href="/bankdetails">Bank Statement</a>
+                <a href="/bankdetails">Bank Voucher</a>
               </li>
               <li>
-                <a href="/incomestatement">Income Statement</a>
+                <a href="/incomestatement">Internal Members Transfer</a>
               </li>
-              <li>
+              {/* <li>
                 <a href="/purchasescodes">Purchase Epin</a>
+              </li> */}
+            </ul>
+          </li>
+          <li className="submenu">
+            <a href="#">
+              <i className="fa fa-money" /> <span> Transections </span>{" "}
+              <span className="menu-arrow" />
+            </a>
+            <ul style={{ display: "none" }}>
+              <li>
+                <a href="/commissionlevel">Members Details</a>
+              </li>
+              <li>
+                <a href="/commissionlevel">Individual details</a>
+              </li>
+              <li>
+                <a href="/commissionlevel">Total Balance</a>
               </li>
             </ul>
           </li>
           <li className="submenu">
             <a href="#">
-              <i className="fa fa-money" /> <span> Commissions </span>{" "}
+              <i className="fa fa-edit" /> <span> Edit page </span>{" "}
               <span className="menu-arrow" />
             </a>
             <ul style={{ display: "none" }}>
               <li>
-                <a href="/commissionlevel">Level Bonus</a>
+                <a href="/deposit">About us</a>
+              </li>
+              <li>
+                <a href="/viewdeposite">Contact Us</a>
+              </li>
+              <li>
+                <a href="/viewdeposite">Home Page</a>
+              </li>
+              <li>
+                <a href="/viewdeposite">Workshop</a>
+              </li>
+              <li>
+                <a href="/viewdeposite">Our Mission</a>
               </li>
             </ul>
           </li>
           <li className="submenu">
             <a href="#">
-              <i className="fa fa-money" /> <span> Deposits </span>{" "}
+              <i className="fa fa-user" /> <span>Add users</span>{" "}
               <span className="menu-arrow" />
             </a>
             <ul style={{ display: "none" }}>
               <li>
-                <a href="/deposit">New Deposit</a>
+                <a href="/deduct">User’s right</a>
               </li>
-              <li>
-                <a href="/viewdeposite">View Deposit</a>
-              </li>
-            </ul>
-          </li>
-          <li className="submenu">
-            <a href="#">
-              <i className="fa fa-money" /> <span>Deductions</span>{" "}
-              <span className="menu-arrow" />
-            </a>
-            <ul style={{ display: "none" }}>
-              <li>
-                <a href="/deduct">New Deduction</a>
-              </li>
-              <li>
+              {/* <li>
                 <a href="/viewdeduct">View Deduction</a>
+              </li> */}
+            </ul>
+          </li>
+          <li className="submenu">
+            <a href="#">
+              <i className="fa fa-edit" /> <span>Edit Info Letter</span>{" "}
+              <span className="menu-arrow" />
+            </a>
+            <ul style={{ display: "none" }}>
+              <li>
+                <a href="/paymentrequest">Welcome members</a>
+              </li>
+              <li>
+                <a href="/paymentrequest">Members Information</a>
+              </li>
+              <li>
+                <a href="/paymentrequest">Terms & conditions</a>
+              </li>
+              <li>
+                <a href="/paymentrequest">Payout Receive</a>
+              </li>
+              <li>
+                <a href="/paymentrequest">Payment Receive</a>
               </li>
             </ul>
           </li>
           <li className="submenu">
             <a href="#">
-              <i className="fa fa-money" /> <span>Payment Requests</span>{" "}
+              <i className="fa fa-money" /> <span>Add Money</span>{" "}
               <span className="menu-arrow" />
             </a>
             <ul style={{ display: "none" }}>
               <li>
-                <a href="/paymentrequest">View Statement</a>
+                <a href="/pwithdrawal">Member Details</a>
               </li>
-            </ul>
-          </li>
-          <li className="submenu">
-            <a href="#">
-              <i className="fa fa-money" /> <span>Withdrawals</span>{" "}
-              <span className="menu-arrow" />
-            </a>
-            <ul style={{ display: "none" }}>
-              <li>
-                <a href="/pwithdrawal">Pending Withdrawal</a>
-              </li>
-              <li>
+              {/* <li>
                 <a href="/awithdrawal">Approved Withdrawal</a>
-              </li>
+              </li> */}
             </ul>
           </li>
           <li className="submenu">
             <a href="#">
-              <i className="fa fa-users" /> <span>Genealogy</span>{" "}
+              <i className="fa fa-users" /> <span>Support Massages</span>{" "}
               <span className="menu-arrow" />
             </a>
-            <ul style={{ display: "none" }}>
+            {/* <ul style={{ display: "none" }}>
               <li>
                 <a href="/gridview">Grid View</a>
               </li>
               <li>
                 <a href="/matrixview">Matrix View</a>
               </li>
-            </ul>
+            </ul> */}
           </li>
           {/* <li>
             <a href="patients.html">
