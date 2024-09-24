@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from './components/Header';
 import Main from './components/Main';
 import SettingsJoining from './components/settingsjoining';
-import SettingsLevel from './components/settingslevel';
+import UserRPT from './components/usersrpt';
 import SettingsEpin from './components/settingsepin'
 import SettingsWithdrawal from './components/settingswithdrawal'
 import SettingsPin from './components/settingspin'
@@ -13,7 +13,7 @@ import PurchaseScodes from './components/purchasescodes'
 import CommissionLevel from './components/commissionlevel'
 import Deposit from './components/deposit'
 import ViewDeposite from './components/viewdeposite'
-import Deduct from './components/deduct'
+import AddUsers from './components/addusers'
 import ViewDeduct from './components/viewdeduct'
 import PaymentRequest from './components/paymentrequest'
 import PWithdrawal from './components/pwithdrawal'
@@ -30,7 +30,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Main />} />
           <Route path="/settingsjoining" element={<SettingsJoining />} />
-          <Route path="/settingslevel" element={<SettingsLevel />} />
+          <Route path="/usersrpt" element={<UserRPT />} />
           <Route path="/settingsepin" element={<SettingsEpin />} />
           <Route path="/settingswithdrawal" element={<SettingsWithdrawal />} />
           <Route path="/settingspin" element={<SettingsPin />} />
@@ -41,7 +41,7 @@ function App() {
           <Route path="/commissionlevel" element={<CommissionLevel />} />
           <Route path="/deposit" element={<Deposit />} />
           <Route path="/viewdeposite" element={<ViewDeposite />} />
-          <Route path="/deduct" element={<Deduct />} />
+          <Route path="/addusers" element={<AddUsers />} />
           <Route path="/viewdeduct" element={<ViewDeduct />} />
           <Route path="/paymentrequest" element={<PaymentRequest />} />
           <Route path="/pwithdrawal" element={<PWithdrawal />} />

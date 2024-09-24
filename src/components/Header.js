@@ -175,7 +175,7 @@ const Header = () => {
           <a className="dropdown-item" href="settings.html">
             Settings
           </a> */}
-          <a className="dropdown-item" href="login.html">
+          <a className="dropdown-item" href="#">
             Change Password
           </a>          
           <a className="dropdown-item" href="login.html">
@@ -312,7 +312,10 @@ const Header = () => {
             </a>
             <ul style={{ display: "none" }}>
               <li>
-                <a href="/deduct">User’s right</a>
+                <a href="/addusers">Add New Users</a>
+              </li>
+              <li>
+                <a href="/usersrpt">Users Report</a>
               </li>
               {/* <li>
                 <a href="/viewdeduct">View Deduction</a>
